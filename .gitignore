@@ -1,0 +1,65 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno 
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# 🧱 BACKEND (Node.js / Express)
+
+/backend/node_modules
+/backend/dist
+/backend/build
+/backend/coverage
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+
+# Archivos temporales
+/backend/tmp
+/backend/.cache
+/backend/*.pid
+
+
+# 🎨 FRONTEND (React / Vite / CRA)
+
+/frontend-react/node_modules
+/frontend-react/build
+/frontend-react/dist
+/frontend-react/.env
+/frontend-react/.env.*
+!/frontend-react/.env.example
+/frontend-react/.pnp
+/frontend-react/.pnp.js
+/frontend-react/coverage
+
+
+# 🧰 MISC
+
+# Lockfiles (si solo usas uno, puedes eliminar los demás)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de dependencias locales
+.pnpm-debug.log*
+
+# ⚙️ OPTIONAL: ignore OS trash folders
+
+.trash/
+$RECYCLE.BIN/
