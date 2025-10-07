@@ -1,13 +1,19 @@
-# Archivos del sistema operativo
+# -------------------------------------------------------
+# 🌐 PROYECTO FULL STACK: React (frontend) + Node.js (backend)
+# -------------------------------------------------------
+
+# === ARCHIVOS DEL SISTEMA OPERATIVO ===
 .DS_Store
 Thumbs.db
+.trash/
+$RECYCLE.BIN/
 
-# Variables de entorno 
+# === VARIABLES DE ENTORNO ===
 .env
 .env.*
 !.env.example
 
-# Logs
+# === LOGS ===
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -15,51 +21,49 @@ pnpm-debug.log*
 logs
 *.log
 
-# Editor / IDE
+# === EDITORES / IDEs ===
 .vscode/
 .idea/
 *.swp
 
+# -------------------------------------------------------
 # 🧱 BACKEND (Node.js / Express)
-
+# -------------------------------------------------------
 /backend/node_modules
 /backend/dist
 /backend/build
 /backend/coverage
+/backend/tmp
+/backend/.cache
+/backend/*.pid
 /backend/.env
 /backend/.env.*
 !/backend/.env.example
 
-# Archivos temporales
-/backend/tmp
-/backend/.cache
-/backend/*.pid
-
-
+# -------------------------------------------------------
 # 🎨 FRONTEND (React / Vite / CRA)
-
+# -------------------------------------------------------
 /frontend-react/node_modules
 /frontend-react/build
 /frontend-react/dist
+/frontend-react/coverage
+/frontend-react/.pnp
+/frontend-react/.pnp.js
 /frontend-react/.env
 /frontend-react/.env.*
 !/frontend-react/.env.example
-/frontend-react/.pnp
-/frontend-react/.pnp.js
-/frontend-react/coverage
 
-
+# -------------------------------------------------------
 # 🧰 MISC
-
-# Lockfiles (si solo usas uno, puedes eliminar los demás)
+# -------------------------------------------------------
+# Lockfiles (usa solo uno)
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
-# Archivos de dependencias locales
-.pnpm-debug.log*
+# -------------------------------------------------------
+# 🧪 TESTS Y PRODUCCIÓN
+# -------------------------------------------------------
+/coverage
+/build
 
-# ⚙️ OPTIONAL: ignore OS trash folders
-
-.trash/
-$RECYCLE.BIN/

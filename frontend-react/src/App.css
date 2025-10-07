@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Tarjetas visuales para formularios y tablas */
+form, table {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Campos de entrada y botones uniformes */
+input, button {
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* ✅ Botón principal (Guardar / Editar) */
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ Botón rojo (Eliminar) con efecto hover */
+.btn-eliminar {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-eliminar:hover {
+  background-color: #a71d2a;
+}
+
+/* ✅ Botón azul (Editar) igual estilo que Guardar */
+.btn-editar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-editar:hover {
+  background-color: #0056b3;
+}
+
+/* Espaciado entre botones */
+.btn-editar, .btn-eliminar {
+  margin-right: 6px;
+}
